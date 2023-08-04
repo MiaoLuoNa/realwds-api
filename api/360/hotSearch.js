@@ -3,7 +3,7 @@ const axios = require('axios')
 module.exports = async (req, res) => {
   const result = await axios({
     method: 'get',
-    url: `http://openbox.mobilem.360.cn/html/api/wallpaperhot.html`
+    url: `https://weather.cma.cn/api/now/54511`
   })
 
   res.json({
